@@ -1,4 +1,4 @@
 # Lyceum-20
 
-404
+V tomto repozitáři naleznete kód z hodin a Wiki s materiály
 
