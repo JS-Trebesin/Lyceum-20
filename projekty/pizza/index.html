@@ -1,0 +1,56 @@
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzeria</title>
+    <script src="https://api.mapy.cz/loader.js"></script>
+	<script>Loader.load()</script>
+</head>
+<body>
+    <header class="main-header" id="home">
+        <nav class="nav">
+            <a href="#home"><img src="logo.png" alt="" class="logo"></a>
+            <ul>
+                <li><a href="#about-header" class="about">O nás</a></li>
+                <li><a href="#restaurant-header" class="restaurant">Naše restaurace</a></li>
+                <li><a href="#contacts-header" class="contacts">Kde nás najdete</a></li>
+            </ul>
+        </nav>
+        <h1 class="banner-header">Little Nero's <br> Pizza</h1>
+        <div class="subheader">
+            <h2>Nejlepší fiktivní pizza v Praze</h2>
+            <a href="">Objednej rozvoz</a>
+            <a href="">Menu</a>
+        </div>  
+    </header>
+
+    <section class="about sections">
+        <img src="chef.jpg" alt="">
+        <h2 id="about-header">O nás</h2>
+        <p><span>Lorem ipsum dolor</span> sit amet consectetur adipisicing elit. Quam obcaecati cupiditate delectus illo vel at nam culpa corrupti veniam neque! Explicabo rem debitis soluta illum suscipit tenetur. Libero officia, enim vel, vero nam illo perspiciatis corporis, voluptatum natus sunt dolorum neque. Itaque, quod? Consequatur sint tenetur minima quo, amet necessitatibus!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi veniam ipsam nemo non quas autem quaerat ipsum deserunt nostrum omnis! Assumenda iste harum labore similique molestiae! Esse accusamus laudantium eligendi consequuntur, est in incidunt, voluptates rem temporibus praesentium debitis veniam modi quae eaque minus nihil quia? Ut veniam tenetur ab!</p>
+    </section>
+
+    <section class="restaurant sections">
+        <img src="restaurant.jpg" alt="">
+        <h2 id="restaurant-header">Naše restaurace</h2>
+        <p><span>Lorem ipsum dolor</span> sit amet consectetur adipisicing elit. Quam obcaecati cupiditate delectus illo vel at nam culpa corrupti veniam neque! Explicabo rem debitis soluta illum suscipit tenetur. Libero officia, enim vel, vero nam illo perspiciatis corporis, voluptatum natus sunt dolorum neque. Itaque, quod? Consequatur sint tenetur minima quo, amet necessitatibus!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi veniam ipsam nemo non quas autem quaerat ipsum deserunt nostrum omnis! Assumenda iste harum labore similique molestiae! Esse accusamus laudantium eligendi consequuntur, est in incidunt, voluptates rem temporibus praesentium debitis veniam modi quae eaque minus nihil quia? Ut veniam tenetur ab!</p>
+    </section>
+
+
+    <footer class="contacts">
+        <h2 id="contacts-header">Kontakty</h2>
+        <div id="mapa" style="width:75vw; height:400px;"></div>
+	    <script type="text/javascript">
+            var stred = SMap.Coords.fromWGS84(14.41, 50.08);
+            var mapa = new SMap(JAK.gel("mapa"), stred, 17);
+            mapa.addDefaultLayer(SMap.DEF_BASE).enable();
+            mapa.addDefaultControls();	      	      
+	    </script>
+    </footer>
+    
+</body>
+</html>

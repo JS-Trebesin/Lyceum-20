@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.kacer-donald {
+    width: 150px;
+    height: 5000px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.kacer {
+    width: 150px;
+    height: 50px;
+    color: white;
+    text-align: center;
+
+}
+
+.kulik {
+    background-color: red;
+    position: relative;
+    left: 50px;
+    top: 0px;
+}
+
+.dulik {
+    background-color: blue;
+}
+
+.bubik {
+    background-color: green;
+}

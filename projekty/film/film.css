@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* .nazevtřídy odkazuje na classu */
+.images {
+    height: 300px;
+    width: auto;
+    border: 5px solid rgb(51, 86, 184);
+    border-radius: 5%;
+}
+
+.headings {
+    font-family: Raleway, "Times New Roman";
+    color: rgb(51, 86, 184);
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.buttons {
+    background-color: rgb(51, 86, 184);
+    color: white;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto;
+}
+
+.img {
+    height: 400px;
+    aspect-ratio: auto;
+    margin: 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.switch {
+    position: absolute;
+    height: 50px;
+    aspect-ratio: auto;
+    top: 30px;
+    right: 30px;
+}
+
+
+
+
+
+
+.school {
+    display: none;
+}
+
+.holidays {
+    display: block;
+}

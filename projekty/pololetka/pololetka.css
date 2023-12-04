@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #FFEBCD;
+}
+
+.nadpis {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.karty {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.karta {
+    background-color: #B9E6FF;
+    height: 350px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.karta h2 {
+    text-align: center;
+}
+
+.karta p {
+    text-align: justify;
+}
+
+.karta li {
+    list-style:square;
+}
+
+.tlacitko {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 1000px;
+    background-color: #FCDCA9;
+    text-decoration: none;
+    color: black;
+}
+
+.tlacitko-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* text-align:center */
+}
+
+.kolecko {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.treti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

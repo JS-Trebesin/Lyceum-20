@@ -1,0 +1,35 @@
+.red {
+    background-color: red;
+    width: 100px;
+    height: 20px;
+    display: none;
+}
+
+.green {
+    background-color: green;
+    border: 5px solid black;
+    width: 150px;
+    padding: 10px;
+    height: 50px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+
+.blue {
+    background-color: blue;
+    display: inline;
+}
+
+.purple {
+    background-color: purple;
+    width: 100px;
+    height: 10px;
+    display: block;
+}
+
+.yellow {
+    background-color: yellow;
+}

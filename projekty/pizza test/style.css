@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: Merriweather;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    text-align: center;
+    
+}
+
+.nav li {
+    display:inline-block;
+    padding: 0 5%;
+}
+
+.nav a {
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 10px black;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: green;
+    border-radius: 1000px;
+}
+
+.main-header {
+    background-image: url(pizza-background.jpg);
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: multiply;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+    line-height: 4;
+}
+
+.banner-header {
+    margin: 0;
+    padding: 0.6em;
+    text-shadow: 0 0 10px black;
+    font-size: 5em;
+}
+
+.sections {
+    margin: 150px 25vw;
+}
+
