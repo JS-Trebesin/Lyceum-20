@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 def prvni_pismenka(seznam):
     novy_seznam = []
     for slovo in seznam:
