@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            gap: 10px;
+        }
+
+        .ikona {
+            position: absolute;
+            right: 30px;
+            top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="nadpis">Nadpis</h1>
+    <input id="input" type="text">
+    <button id="tlacitko">Klik</button>
+    <img src="moon.png" class="ikona" alt="">
+
+
+
+
+
+
+    <script>
+        let nadpis = document.querySelector("#nadpis")
+        // let nadpis = document.getElementById("nadpis")
+        let tlacitko = document.querySelector("#tlacitko")
+        let uzivInput = document.querySelector("#input")
+        
+        let ikona = document.querySelector(".ikona")
+        let body = document.querySelector("body")
+
+
+        tlacitko.addEventListener("click", upravNadpis)
+
+        ikona.addEventListener("click", zmenBarvu)
+
+
+        function zmenBarvu() {
+            nadpis.style.color = "white"
+            body.style.backgroundColor = "black"
+
+        }
+
+
+        function upravNadpis() {
+            let text = uzivInput.value
+            nadpis.style.color = "blue"
+            nadpis.style.fontSize = "50px"
+            if (text === "Ondřej") {
+                nadpis.innerText = text
+            } else {
+                nadpis.innerText = "Napište Ondřej"
+            }
+            // nadpis.innerHTML = "Nový"
+        }
+
+        
+       
+
+
+    </script>
+</body>
+</html>
