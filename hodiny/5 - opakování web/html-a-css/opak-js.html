@@ -35,6 +35,7 @@
 
     <script>
         let nadpis = document.querySelector("#nadpis")
+
         // let nadpis = document.getElementById("nadpis")
         let tlacitko = document.querySelector("#tlacitko")
         let uzivInput = document.querySelector("#input")
@@ -47,6 +48,8 @@
 
         ikona.addEventListener("click", zmenBarvu)
 
+        
+
 
         function zmenBarvu() {
             nadpis.style.color = "white"
@@ -56,14 +59,20 @@
 
 
         function upravNadpis() {
+
             let text = uzivInput.value
             nadpis.style.color = "blue"
             nadpis.style.fontSize = "50px"
+
             if (text === "Ondřej") {
                 nadpis.innerText = text
-            } else {
+            } 
+            else {
                 nadpis.innerText = "Napište Ondřej"
             }
+
+
+
             // nadpis.innerHTML = "Nový"
         }
 
